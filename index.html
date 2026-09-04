@@ -41,7 +41,7 @@
         @media (max-width: 640px) {
             body{font-size:18px}
             main{padding-left:0.375rem !important;padding-right:0.375rem !important}
-            #progress-screen > div{padding-left:0.25rem !important;padding-right:0.25rem !important}
+            #progress-screen > div{padding-left:0.25rem !important;padding-right:0.25rem !important;padding-bottom:3.5rem !important}
             .day-card{padding:0.55rem 0.275rem !important;min-height:72px;border-radius:0.75rem !important;overflow:hidden}
             .day-card .icon-lg{font-size:1.2rem !important}
             .day-card .day-label{font-size:0.9rem !important;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -86,6 +86,9 @@
             .export-card{padding:1.25rem 0.625rem !important}
             .stats-card{padding:1.25rem 0.625rem !important}
             .confirm-card{padding:1.25rem 0.625rem !important}
+        }
+        @media (min-width: 641px) {
+            #progress-screen > div{padding-bottom:3rem !important}
         }
         body.light {
             background: linear-gradient(to bottom right, #f8fafc, #eef2ff, #f1f5f9);
@@ -381,7 +384,7 @@
                         </button>
                     </div>
                 </div>
-                <p class="map-subtitle text-xs sm:text-xs text-slate-400 mb-3 sm:mb-4">Complete 7 de 10 questões corretas para desbloquear o próximo dia.</p>
+                <p class="map-subtitle text-xs sm:text-xs text-slate-400 mb-3 sm:mb-4 mt-3 sm:mt-4">Complete 7 de 10 questões corretas para desbloquear o próximo dia.</p>
                 <div class="mb-3 sm:mb-4">
                     <div class="flex justify-between items-center mb-1.5">
                         <span class="text-xs font-medium text-slate-400">Dias Concluídos</span>
